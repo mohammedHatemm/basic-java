@@ -6,15 +6,6 @@
 ├───README.MD
 ├───.git/...
 └───variable/
-    ├───.gitignore
-    ├───variable.iml
-    ├───.idea/
-    │   ├───.gitignore
-    │   ├───misc.xml
-    │   ├───modules.xml
-    │   └───vcs.xml
-    ├───out/
-    │   └───production/...
     └───src/
         ├───Main.java
         └───README.md
