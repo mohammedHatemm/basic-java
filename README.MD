@@ -1,14 +1,21 @@
 # Project Structure
 
 ```
-/home/sherif/IdeaProjects/
-├───JAVA_LEARNING_ROADMAP.md
-├───README.MD
-├───.git/...
-└───variable/
-    └───src/
-        ├───Main.java
-        └───README.md
+/home/sherif/IdeaProjects
+├── Area
+│   └── src
+│       └── Main.java
+├── MadLibsGame
+│   └── src
+│       └── Main.java
+├── operation
+│   └── src
+│       ├── Main.java
+│       └── README.md
+└── variable
+    └── src
+        ├── Main.java
+        └── README.md
 ```
 
 ---
