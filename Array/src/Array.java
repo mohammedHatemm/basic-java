@@ -96,7 +96,7 @@ public class Array {
 
         System.out.println("\n=============================\n");
         dynamicArrs.forEach(item-> System.out.println(item));
-        
+
 
 
     }
