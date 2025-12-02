@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Array {
@@ -33,7 +35,15 @@ public class Array {
             System.out.println("Element at index " + i + ": " + numbers[i]);
         }
 
-        // Using an enhanced for-each loop (simpler syntax)
+
+
+
+
+
+
+
+
+        // Using an enhanced for-each loop (simpler syntax)=>>>>>>>>>>>>>>>>>>>>>>>>>>>
         System.out.println("\nIterating with a for-each loop:");
         for (String fruit : fruits) {
             System.out.println("Fruit: " + fruit);
@@ -69,5 +79,25 @@ public class Array {
             }
             System.out.println(); // Newline after each row
         }
+
+
+
+
+        // arraylist
+        ArrayList<String> dynamicArrs = new ArrayList<>();
+        dynamicArrs.add("mohamed");
+        dynamicArrs.add("mahmoud");
+        dynamicArrs.add("ahmed");
+
+        System.out.println("print the dynaoic array \n");
+        for(String dynamicArr : dynamicArrs){
+            System.out.println(dynamicArr);
+        }
+
+        System.out.println("\n=============================\n");
+        dynamicArrs.forEach(item-> System.out.println(item));
+        
+
+
     }
 }
