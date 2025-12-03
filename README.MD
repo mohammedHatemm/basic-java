@@ -2,27 +2,160 @@
 
 ```
 /home/sherif/IdeaProjects
-├── Area
-│   └── src
-│       └── Main.java
-├── MadLibsGame
-│   └── src
-│       └── Main.java
-├── operation
-│   └── src
-│       ├── Main.java
-│       └── README.md
-└── variable
-    └── src
-        ├── Main.java
-        └── README.md
+├── Fundamentals (Basic Concepts)
+│   ├── variable/          - Variables, data types, and Scanner input
+│   ├── operation/         - All types of operators (Arithmetic, Logical, Bitwise, etc.)
+│   ├── TypeCasting/       - Type casting (Widening, Narrowing, Object casting)
+│   ├── ConditionStatment/ - Conditional statements (if/else, switch, nested if)
+│   ├── String/            - String manipulation and methods
+│   ├── PrintF/            - Printf formatting and placeholders
+│   ├── loop/              - All loop types (for, while, do-while, for-each)
+│   ├── method/            - Methods, overloading, overriding, recursion, varargs
+│   └── Array/             - Arrays, 2D arrays, and ArrayList
+│
+└── Projects (Practical Applications)
+    ├── Area/              - Rectangle area calculator
+    ├── ShoppingCart/      - Simple shopping cart calculator
+    ├── MadLibsGame/       - Interactive story generator game
+    ├── DicRoller/         - Dice rolling simulator
+    ├── methods/           - Banking program (deposit/withdraw system)
+    └── OptionGame/        - Quiz game with scoring system
 ```
+
+---
+
+# Completed Work Summary
+
+## ✅ Fundamentals Completed
+
+### 1. **variable/** - Variables and Data Types
+- Primitive types: `int`, `boolean`, `char`
+- `String` type and basic usage
+- Scanner for user input
+- Variable declaration and initialization
+
+### 2. **operation/** - All Java Operators
+- Arithmetic operators (`+`, `-`, `*`, `/`, `%`)
+- Unary operators (`++`, `--`, `!`)
+- Assignment operators (`=`, `+=`, `-=`)
+- Relational operators (`==`, `!=`, `>`, `<`, `>=`, `<=`)
+- Logical operators (`&&`, `||`, `!`)
+- Ternary operator (`? :`)
+- Bitwise operators (`&`, `|`, `^`, `~`, `<<`, `>>`, `>>>`)
+
+### 3. **TypeCasting/** - Type Conversion
+- Widening casting (implicit): `int` to `double`, `char` to `int`
+- Narrowing casting (explicit): `double` to `int`, `float` to `int`
+- Object casting with polymorphism
+- Upcasting and downcasting with `instanceof` operator
+- Example classes: `Animal`, `Dog`, `Cat`
+
+### 4. **ConditionStatment/** - Decision Making
+- `if` statements
+- `if-else` statements
+- `if-else-if` ladder (grade calculation)
+- Nested `if` statements
+- `switch` statements with fall-through
+- Leap year calculation example
+
+### 5. **String/** - String Manipulation
+- String creation (literal vs `new` keyword)
+- String pool concept (`==` vs `.equals()`)
+- Essential methods: `length()`, `charAt()`, `substring()`, `toUpperCase()`, `toLowerCase()`
+- String methods: `trim()`, `replace()`, `startsWith()`, `endsWith()`, `contains()`
+- `indexOf()`, `lastIndexOf()`, `split()`
+- String immutability concept
+- `StringBuilder` for mutable strings
+
+### 6. **PrintF/** - Formatted Output
+- `printf()` format specifiers:
+  - `%s` for strings
+  - `%d` for integers
+  - `%c` for characters
+  - `%f` for floating-point numbers
+  - `%b` for booleans
+- Precision formatting (e.g., `%.2f`)
+- Number formatting with commas (`%,f`)
+
+### 7. **loop/** - Iteration Structures
+- `for` loop
+- `while` loop
+- `do-while` loop
+- Enhanced for-each loop (arrays and collections)
+- Loop control: `break` and `continue`
+- Working with `ArrayList` and `HashMap`
+- Iterating over `Map.Entry`
+
+### 8. **method/** - Functions and Methods
+- Method definition and parameters
+- Return types
+- Method overloading (multiple signatures)
+- Method overriding with `@Override`
+- Variable arguments (varargs) - `int... numbers`
+- Recursion (factorial calculation)
+- Variable scope (instance vs local variables)
+- Static vs instance methods
+
+### 9. **Array/** - Array Data Structures
+- Array declaration and initialization
+- Accessing and modifying array elements
+- Array literals
+- Iterating with standard `for` loop
+- Enhanced for-each loop
+- `Arrays.toString()` and `Arrays.sort()`
+- 2D arrays (multidimensional)
+- `ArrayList` with dynamic sizing
+- Lambda expressions with `forEach()`
+- User input for array creation
+
+## 🎮 Projects Completed
+
+### 1. **Area** - Rectangle Area Calculator
+- User input for width and height
+- Calculation and output
+- Scanner usage and resource closing
+
+### 2. **ShoppingCart** - Shopping Calculator
+- Item name, price, and quantity input
+- Total calculation
+- Currency formatting
+
+### 3. **MadLibsGame** - Interactive Story Generator
+- Multiple user inputs (adjectives, nouns, verbs)
+- String concatenation
+- Story template with placeholders
+
+### 4. **DicRoller** - Dice Rolling Simulator
+- Random number generation
+- Loop-based multiple dice rolls
+- Running total calculation
+- Input validation
+
+### 5. **methods (Banking Program)** - Simple Banking System
+- Menu-driven interface with `switch` statement
+- Balance tracking
+- Deposit functionality
+- Withdraw with validation (insufficient funds check)
+- Methods: `showBalancer()`, `deposit()`, `withdraw()`
+
+### 6. **OptionGame** - Quiz Game
+- 2D array for questions and options
+- Array of correct answers
+- Score tracking system
+- Input validation
+- User feedback (correct/wrong)
 
 ---
 
 # My Java Learning Journey: From Fundamentals to Spring Boot
 
 This document outlines my personal roadmap for learning Java, starting from the very basics and progressing to advanced topics like the Spring Framework and Spring Boot. Each section includes a list of topics to cover, followed by exercises and a mini-project to apply the learned concepts.
+
+## 🎯 Current Progress
+**Status:** ✅ Section 1 Completed - Java Fundamentals
+- All fundamental topics covered
+- 6 practical projects completed
+- Ready to move to Section 2: Object-Oriented Programming
 
 ---
 
