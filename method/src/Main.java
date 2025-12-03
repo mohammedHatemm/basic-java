@@ -60,6 +60,12 @@ public class Main {
         int result = factorial(number);
         System.out.println("The factorial of " + number + " is: " + result);
         System.out.println();
+
+
+        System.out.println("\n*************************************************************\n");
+        System.out.println(add(1,2,3));
+//        System.out.println(add(1,2 ,3,4,5,6,7));
+
     }
 }
 
@@ -97,4 +103,17 @@ class ScopeExample {
     public void anotherMethod() {
         // System.out.println(localVar); // This would cause a compile error
     }
+
+
+
+    // Variable Arguments -> you can add any number of the argument in the function with this
+    static int add(int... numbers){
+//        System.out.println("print " + number);
+        int sum =0;
+        for(int number : numbers){
+            sum +=number;
+        }
+        return sum;
+    }
+
 }

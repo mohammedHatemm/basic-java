@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.SplittableRandom;
 
 public class Array {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // 1. Declaration and Initialization
         // Declare an array of integers
         int[] numbers;
@@ -38,13 +38,6 @@ public class Array {
         }
 
 
-
-
-
-
-
-
-
         // Using an enhanced for-each loop (simpler syntax)=>>>>>>>>>>>>>>>>>>>>>>>>>>>
         System.out.println("\nIterating with a for-each loop:");
         for (String fruit : fruits) {
@@ -65,9 +58,9 @@ public class Array {
         // A 2D array is an array of arrays.
         // Here we create a 3x3 matrix.
         int[][] matrix = {
-            {1, 2, 3},
-            {4, 5, 6},
-            {7, 8, 9}
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
         };
 
         // Accessing an element in a 2D array
@@ -83,8 +76,6 @@ public class Array {
         }
 
 
-
-
         // arraylist
         ArrayList<String> dynamicArrs = new ArrayList<>();
         dynamicArrs.add("mohamed");
@@ -92,23 +83,23 @@ public class Array {
         dynamicArrs.add("ahmed");
 
         System.out.println("print the dynaoic array \n");
-        for(String dynamicArr : dynamicArrs){
+        for (String dynamicArr : dynamicArrs) {
             System.out.println(dynamicArr);
         }
 
         System.out.println("\n=============================\n");
-        dynamicArrs.forEach(item-> System.out.println(item));
+        dynamicArrs.forEach(item -> System.out.println(item));
 
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("please enter the number of your array ");
-        int numOfArray =scanner.nextInt();
+        int numOfArray = scanner.nextInt();
         scanner.nextLine();
         String[] nameOfArrs = new String[numOfArray];
         System.out.println("pleas enter the name of array that you enter the number is   " + numOfArray + "element \n ");
-for(int i= 0 ; i < numOfArray ; i ++){
-    nameOfArrs[i] =scanner.nextLine();
-}
+        for (int i = 0; i < numOfArray; i++) {
+            nameOfArrs[i] = scanner.nextLine();
+        }
 
         System.out.println("the name you enter");
 //for(String nameOfArr : nameOfArrs)
@@ -116,8 +107,8 @@ for(int i= 0 ; i < numOfArray ; i ++){
 //    System.out.println("the name of the element is " + nameOfArr + "*********" + "the index of tthe elemnt is " + nameOfArr[i] );
 //}
 
-        for(int i = 0 ; i< nameOfArrs.length ; i++){
-                System.out.println("the name of the element is " + nameOfArrs[i] + "    *********" + "the index of tthe elemnt is " + i );
+        for (int i = 0; i < nameOfArrs.length; i++) {
+            System.out.println("the name of the element is " + nameOfArrs[i] + "    *********" + "the index of tthe elemnt is " + i);
 
         }
 
@@ -125,5 +116,21 @@ for(int i= 0 ; i < numOfArray ; i ++){
 //        System.out.println("the number of the array is " + founds.length );
 
 
+        //2d array
+
+        String[] fruits2 = {"banana", "apple", "orange"};
+        String[] vegetabled = {"potaors", "onion", "caracot"};
+
+        String[] meats = {"checkien", "prok ", "beef", "fish"};
+
+        String[][] alls = {fruits2, vegetabled, meats};
+
+        for (String[] foods : alls) {
+            for(String food :foods){
+                System.out.print(food + " ");
+            }
+            System.out.println();
+
+        }
     }
 }
